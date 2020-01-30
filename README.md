@@ -17,10 +17,8 @@ Download the keras [vgg16 weights](https://gist.github.com/baraldilorenzo/07d780
 
 ##Usage
 ----------------------------------------------
-[1.]Data preparation
-Please cut the original image into 512x512 patches.
-[2.]Config.py
+(1)Config.py
 Please set all the parameters.
-[3.]train-unet.py
+(2)train-unet.py
 Train the U-Net.
-[4.] Analysis.py
+(3) Analysis.py
