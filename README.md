@@ -1,2 +1,26 @@
-# Lung-Cancer-Surviarl-Analysis
-A deep learning based framework for lung cancer survival analysis with biomarker interpretation.
+# A Deep Learning Based Framework for Lung Cancer Survival Analysis with Biomarker
+sklearn-lifelines
+sklearn estimator wrappers for lifeline survival analysis Cox proportional hazard and Aalen Additive models from https://github.com/CamDavidsonPilon/lifelines
+
+##Installation
+pip install git+https://github.com/sashaostr/sklearn-lifelines.git
+
+##Requirements
+keras with theano backend (keras version 1.0.4 or later)
+h5py
+numpy
+matplotlib
+opencv3
+
+##External data
+Download the keras [vgg16 weights](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3).
+
+##Usage
+----------------------------------------------
+[1.]Data preparation
+Please cut the original image into 512x512 patches.
+[2.]Config.py
+Please set all the parameters.
+[3.]train-unet.py
+Train the U-Net.
+[4.] Analysis.py
