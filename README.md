@@ -1,4 +1,4 @@
-# A Deep Learning Based Framework for Lung Cancer Survival Analysis with Biomarker
+# A Deep Learning Based Framework for Lung Cancer Survival Analysis with Biomarker Interpretation
 sklearn-lifelines
 sklearn estimator wrappers for lifeline survival analysis Cox proportional hazard and Aalen Additive models from https://github.com/CamDavidsonPilon/lifelines
 
